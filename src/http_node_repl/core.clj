@@ -1,4 +1,4 @@
-(ns egstep-code-node.core
+(ns http-node-repl.core
   (:require [compojure.core :refer :all]
             [compojure.route :as route]
             [me.raynes.conch :refer [programs with-programs let-programs]]

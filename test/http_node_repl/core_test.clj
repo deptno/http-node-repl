@@ -1,6 +1,6 @@
-(ns egstep-code-node.core-test
+(ns http-node-repl.core-test
   (:require [clojure.test :refer :all]
-            [egstep-code-node.core :refer :all]))
+            [http-node-repl.core :refer :all]))
 
 (deftest a-test
   (testing "FIXME, I fail."

@@ -1,6 +1,6 @@
-(defproject egstep-code-node "0.1.0-SNAPSHOT"
-  :description "node repl responser"
-  :url "http://example.com/FIXME"
+(defproject http-node-repl "0.1.0-SNAPSHOT"
+  :description "http-node-repl"
+  :url "http://github.com/deptno/http-node-repl"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.clojure/clojure "1.8.0"]
@@ -9,4 +9,4 @@
                  [me.raynes/conch "0.8.0"]
                  ]
   :plugins [[lein-ring "0.10.0"]]
-  :ring {:handler egstep-code-node.core/app})
+  :ring {:handler http-node-repl.core/app})

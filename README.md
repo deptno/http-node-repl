@@ -1,6 +1,6 @@
-# egstep-code-node
+# http-node-repl
 
-A Clojure library designed to ... well, that part is up to you.
+remote repl
 
 ## Usage
 
